@@ -23,30 +23,71 @@
 
 //MY SOLUTION
 
-function NameMe(first, last, name) {
-    this.firstName = first,
-    this.lastName = last,
+function NameMe(first, last) {
+    this.first = first,
+    this.last = last,
     this.name = `${first} ${last}`
 }
 
 //1
-
+function NameMe(first, last) {
+    this.first = first,
+    this.last = last;
+    this.name = `${first} ${last}`
+}
 //2
-
+function NameMe(first, last){
+    this.first = first;
+    this.last = last;
+    this.name = `${first} ${last}`
+}
 //3
+function NameMe(first, last){
+    this.first = first;
+    this.last = last;
+    this.name = `${first} ${last}`
 
+}
 //4
-
+function NameMe(first,last){
+    this.first = first;
+    this.last = last;
+    this.name = `${first} ${last}`
+}
 //5
-
+function NameMe(first,last){
+    this.first = first;
+    this.last = last;
+    this.name = `${first} ${last}`
+}
 //6
-
+function NameMe(first,last){
+    this.first = first;
+    this.last = last;
+    this.name = `${first} ${last}`
+}
 //7
-
+function NameMe(first,last){
+    this.first= first;
+    this.last = last;
+    this.name = `${first} ${last}`
+}
 //8
-
+function NameMe(first,last){
+    this.first = first;
+    this.last = last;
+    this.name = `${first} ${last}`
+}
 //9
-
+function NameMe(first,last){
+    this.first = first;
+    this.last = last;
+    this.name = `${first} ${last}`
+}
 //10
-
+function NameMe(first,last){
+    this.first = first;
+    this.last = last;
+    this.name = `${first} ${last}`
+}
 //OTHER SOLUTIONS
