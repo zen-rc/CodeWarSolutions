@@ -39,3 +39,4 @@ function shortenToDate(longDate) {
 //10
 
 //OTHER SOLUTIONS
+const shortenToDate = longDate => longDate.split(",")[0]
