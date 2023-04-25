@@ -13,7 +13,6 @@ function otherAngle(a, b) {
      return c
   }
 
-
 //1
 
 //2
