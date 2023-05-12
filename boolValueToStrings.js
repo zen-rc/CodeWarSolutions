@@ -10,23 +10,24 @@
 const boolToWord = bool => bool ? "Yes" : "No"
 
 //1
-
+const boolToWord = bool => bool ? "Yes" : "No"
 //2
-
+const boolToWord = bool => bool ? "Yes" : "No"
 //3
+const boolToWord = bool => bool ? "Yes" : "No"
 
 //4
-
+const boolToWord = bool => bool ? "Yes" : "No"
 //5
-
+const boolToWord = bool => bool ? "Yes" : "No"
 //6
-
+const boolToWord = bool => bool ? "Yes" : "No"
 //7
-
+const boolToWord = bool => bool ? "Yes" : "No"
 //8
-
+const boolToWord = bool => bool ? "Yes" : "No"
 //9
-
+const boolToWord = bool => bool ? "Yes" "No"
 //10
-
+const boolToWord = bool => "Yes" : "No"
 //OTHER SOLUTIONS
