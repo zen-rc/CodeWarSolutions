@@ -17,4 +17,3 @@ function fakeBin(x){
     return arr.join('')
   
   }
-// other solutions
