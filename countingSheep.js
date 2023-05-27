@@ -22,25 +22,7 @@ function countSheeps(arrayOfSheep) {
     return newArray.length
 }
 
-
-//1
-
-//2
-
-//3
-
-//4
-
-//5
-
-//6
-
-//7
-
-//8
-
-//9
-
-//10
-
 //OTHER SOLUTIONS
+function countSheeps(arr) {
+  return arr.filter(Boolean).length
+}
