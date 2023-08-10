@@ -28,3 +28,32 @@ function squareDigits(num){
 }
     // 2
 const squareDigits = (num) => Number((num + '').split("").map(c => c *c).join(""));
+
+
+// SECOND TRY
+
+// PREP
+      // Parameters- a run of single digit numbers
+      // Return- the square of each single digit in the num with '-' between them
+      // Example-  9119 --> 811181 (81-1-1-81)
+      // Psuedo Code-
+        // turn num into an array
+        // loop thru the numbers
+        // square each looped number
+        // add each squared number to an array
+        // join the array 
+        // change the string into a number
+
+// MY SOLUTION
+  function squareDigits(num){
+    let arr = num.toString().split('')
+    let array = []
+    
+    for(n of arr) {
+      array.push(n ** 2)
+    }
+    let result = array.join('')
+    
+    return Number(result);
+  }
+
