@@ -41,3 +41,15 @@ function getMiddle(s) {
 //10
 
 //OTHER SOLUTIONS
+function getMiddle(s) {
+  const mid = Math.floor(s.length / 2);
+   const strArr = s.split('')
+   
+    if (s.length % 2 !== 0) {
+       console.log(s)
+      return strArr[mid]
+      } else {
+         console.log(s)
+      return strArr[mid - 1] + strArr[mid]
+      }
+ }

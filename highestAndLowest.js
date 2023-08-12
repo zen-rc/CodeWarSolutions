@@ -41,3 +41,9 @@ function highAndLow(numbers){
 //9
 
 //10
+
+// OTHER SOLUTIONS
+function highAndLow(numbers){
+    numbers = numbers.split(' ');
+    return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
+  }
