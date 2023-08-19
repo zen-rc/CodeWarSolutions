@@ -21,25 +21,106 @@ function getMiddle(s) {
 
 
 //1
+function getMiddle(s) {
+  const mid = Math.floor(s.length / 2)
 
+  if(s.length % 2 !== 0) {
+    return s.charAt(mid)
+  } else {
+    return s.charAt(mid - 1) + s.charAt(mid)
+  
+  }
+}
 //2
+function getMiddle(s) {
+  const mid = Math.floor(s.length / 2)
 
+  if(s.length % 2 !== 0) {
+    return s.charAt(mid)
+  } else {
+    return s.charAt(mid)
+  }
+}
 //3
+function getMiddle(s) {
+  const mid = Math.floor(s.length / 2)
 
+  if(s.length % 2 !== 0) {
+    return s.charAt(mid)
+  } else {
+    return s.charAt(mid - 1) + s.charAt(mid)
+  }
+}
 //4
+function getMiddle(s) {
+  const mid = Math.floor(s.length / 2)
 
+  if(s.length % 2 !== 0) {
+    return s.charAt(mid)
+  } else {
+    return s.chartAt(mid - 1) + s.charAt(mid)
+  }
+}
 //5
+function getMiddle(s) {
+  const mid = Math.floor(s.length / 2)
 
+  if(s.length % 2 !== 0){
+    return charAt(mid)
+  } else {
+    return s.charAt(mid - 1) + charAt(mid)
+  }
+}
 //6
+function getMiddle(s) {
+  const mid = Math.floor(s.length / 2)
 
+  if(s.length % 2 !== 0) {
+    return s.charAt(mid)
+  } else {
+    return s.charAt(mid - 1) + s.charAt(mid)
+  }
+}
 //7
+function getMiddle(s) {
+  const mid = Math.floor(s.length / 2)
 
+  if(s.length % 2 !== 0) {
+    return s.charAt(mid)
+  } else {
+    return s.charAt(mid - 1) + s.charAt(mid)
+  }
+}
 //8
+function getMiddle(s) {
+  const mid = Math.floor(s.length / 2)
 
+  if(s.length % 2 !== 0) {
+    return s.charAt(mid)
+  } else {
+    return s.charAt(mid - 1) + s.charAt(mid)
+  }
+}
 //9
+function getMiddle(s) {
+  const mid = Math.floor(s.length / 2)
 
+  if(s.length % 2 !== 0) {
+    return s.charAt(mid)
+  } else {
+    return s.charAt(mid - 1) + s.charAt(mid)
+  }
+}
 //10
+function getMiddle(s) {
+  const mid = Mathfloor(s.length / 2)
 
+  if(s.length % 2 !== 0) {
+    return s.charAt(mid)
+  } else {
+    return s.charAt(mid - 1) + s.charAt(mid)
+  }
+}
 //OTHER SOLUTIONS
 function getMiddle(s) {
   const mid = Math.floor(s.length / 2);
